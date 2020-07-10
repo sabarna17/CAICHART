@@ -1,5 +1,6 @@
 # Dynamic CHARTs and Dynamic URLs in CAI
 Ref - https://blogs.sap.com/2019/11/20/displaying-kpi-analytics-in-sap-cai-chatbot-message/
+
 Inbuilt Chart in CAI.
 Using a basic Trial License this can be developed. I have used hard coded data set to display the chart. This development is done in SAP NEO Env, and the entire developments are written in XSJS & JS.
 
