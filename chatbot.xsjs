@@ -7,7 +7,7 @@ for (var i = 0; i < heads.length; i++) {
 	}
 }
 
-var validateurl = "https://quickchart.io:443/chart?width=500&height=300&" + "c={type:%27";
+
 var uri = charttype + "%27,";
 var labels = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
 
@@ -27,7 +27,7 @@ var chartjson = {
 		datasets: alldata
 	}
 };
-validateurl = "https://quickchart.io:443/chart?width=500&height=300&c=" + JSON.stringify(chartjson).toString();
+var validateurl = "https://quickchart.io:443/chart?width=500&height=300&c=" + JSON.stringify(chartjson).toString();
 
 var reply = {
 	"replies": [{
@@ -40,7 +40,7 @@ var reply = {
     }],
 	"conversation": {
 		"memory": {
-			"URL": "https://j4ia5972ceee.hana.ondemand.com/NTTINDCOE_CAI/dynURL.xsjs?DATASET=" + JSON.stringify(alldata) + "&CHARTTYPE=" +
+			"URL": "https://jXXZxxxxxe.hana.ondemand.com/COE_CAI/dynURL.xsjs?DATASET=" + JSON.stringify(alldata) + "&CHARTTYPE=" +
 				charttype + "&LABELS=" + labels
 		}
 	}
