@@ -1,4 +1,4 @@
-# CAICHART
+# Dynamic CHARTs and Dynamic URLs in CAI
 Inbuilt Chart in CAI.
 Using a basic Trial License this can be developed. I have used hard coded data set tp display the chart. This development is done in SAP NEO Env, and the entire developments are written in XSJS & JS.
 
