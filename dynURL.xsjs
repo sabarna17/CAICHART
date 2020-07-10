@@ -16,7 +16,7 @@ try {
 	var vPage;
 	
     // Call the Dynamic JS 	
-	var vImgBody = "<script id='NTTDATA-CAI-DYNCHART' CHART='" + JSON.stringify(chartjson) + "' src='https://j4ia5972ceee.hana.ondemand.com/NTTINDCOE_CAI/chart.js'></script>";
+	var vImgBody = "<script id='NTTDATA-CAI-DYNCHART' CHART='" + JSON.stringify(chartjson) + "' src='https://jXXXXXXXxxxxxxxxxe.hana.ondemand.com/COE_CAI/chart.js'></script>";
 	
     // Creation of Body 	
 	vPage = vIndexStart + vIndexHeadStart + vIndexHeadEnd + vIndexBodyStart + VindexBodyEnd + vImgBody +  vIndexTail;
