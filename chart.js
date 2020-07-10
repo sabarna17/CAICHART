@@ -1,4 +1,4 @@
-var nttdataCAIdynChart = document.getElementById("NTTDATA-CAI-DYNCHART");
+var nttdataCAIdynChart = document.getElementById("CAI-DYNCHART");
 var dynChart = nttdataCAIdynChart.getAttribute('CHART');
 
 function appendImage(){
